@@ -1,4 +1,4 @@
-# 2022年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
+# 💯 2022年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
 
 </br>
 
@@ -24,7 +24,7 @@
   <a href="https://space.bilibili.com/64514973"><img src="https://img.shields.io/badge/bilibili-red" alt=""></a>
 </p>
 
-## ffmpeg常用命令
+## 🖥️ ffmpeg常用命令
 
 ### `ffmpeg --help`大概分为6个部分，具体如下：
 
