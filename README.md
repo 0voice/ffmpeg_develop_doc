@@ -30,6 +30,10 @@
 
 - [befovy/fijkplayer](https://github.com/befovy/fijkplayer): ijkplayer for flutter. ijkplayer 的 flutter 封装。 Flutter video/audio player. Flutter media player plugin for android/iOS based on ijkplayer. fijkplayer 是基于 ijkplayer 封装的 flutter 媒体播放器，开箱即用，无需编译 ijkplayer
 
+- [mpv-player/mpv](https://github.com/mpv-player/mpv): 命令行视频播放器
+
+- [CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer): 视频播放器（IJKplayer、ExoPlayer、MediaPlayer），HTTPS，支持弹幕，外挂字幕，支持滤镜、水印、gif截图，片头广告、中间广告，多个同时播放，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，列表全屏动画，视频加载速度，列表小窗口支持拖动，动画效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，列表切换详情页面无缝播放，rtsp、concat、mpeg。
+
 - [mpenkov/ffmpeg-tutorial](https://github.com/mpenkov/ffmpeg-tutorial): 教程，演示如何编写一个基于FFmpeg的视频播放器
 
 - [imoreapps/ffmpeg-avplayer-for-ios-tvos](https://github.com/imoreapps/ffmpeg-avplayer-for-ios-tvos): 一个微小但强大的iOS和Apple TV OS的av播放器框架，是基于FFmpeg库。
