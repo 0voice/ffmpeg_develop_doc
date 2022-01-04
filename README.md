@@ -1,5 +1,13 @@
 # 2022年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
 
+</br>
+
+<p align="center">
+<a> <img width="70%" height="70%" src="https://ahmadawais.com/wp-content/uploads/2021/05/FFmpeg.jpg"></a> 
+</p>
+
+</br>
+
 本repo搜集整理全网ffmpeg学习资料。
 
 所有数据来源于互联网。所谓取之于互联网，用之于互联网。
