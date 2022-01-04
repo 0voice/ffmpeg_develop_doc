@@ -42,6 +42,22 @@
 
 - [Jackarain/avplayer](https://github.com/Jackarain/avplayer): 一个基于FFmpeg、libtorrent的P2P播放器实现
 
+- [tsingsee/EasyPlayerPro-Win](https://github.com/tsingsee/EasyPlayerPro-Win): EasyPlayerPro是一款免费的全功能流媒体播放器，支持RTSP、RTMP、HTTP、HLS、UDP、RTP、File等多种流媒体协议播放、支持本地文件播放，支持本地抓拍、本地录像、播放旋转、多屏播放、倍数播放等多种功能特性，核心基于ffmpeg，稳定、高效、可靠、可控，支持Windows、Android、iOS三个平台，目前在多家教育、安防、行业型公司，都得到的应用，广受好评！
+
+- [yangfeng1994/FFmpeg-Android](https://github.com/yangfeng1994/FFmpeg-Android): FFmpeg-Android 是基于ffmpeg n4.0-39-gda39990编译运行在android平台的音视频的处理框架， 使用的是ProcessBuilder执行命令行操作， 可实现视频字幕添加、尺寸剪切、添加或去除水印、时长截取、转GIF动图、涂鸦、音频提取、拼接、质量压缩、加减速、涂鸦、 倒放、素描、色彩平衡、模糊、九宫格、添加贴纸、滤镜、分屏、图片合成视频等,音视频合成、截取、拼接，混音、音视频解码，视频特效等等音视频处理...
+
+- [yangjie10930/EpMediaDemo](https://github.com/yangjie10930/EpMediaDemo): 基于FFmpeg开发的视频处理框架，简单易用，体积小，帮助使用者快速实现视频处理功能。包含以下功能：剪辑，裁剪，旋转，镜像，合并，分离，添加LOGO，添加滤镜，添加背景音乐，加速减速视频，倒放音视频。简单的Demo,后面逐渐完善各类功能的使用。
+
+- [qingkouwei/oarplayer](https://github.com/qingkouwei/oarplayer): Android Rtmp播放器,基于MediaCodec与srs-librtmp,不依赖ffmpeg
+
+- [goldvideo/decoder_wasm](https://github.com/goldvideo/decoder_wasm): 借助于WebAssembly技术，基于ffmpeg的H.265解码器。
+
+- [HeZhang1994/video-audio-tools](https://github.com/HeZhang1994/video-audio-tools): To process/edit video and audio with Python+FFmpeg. [简单实用] 基于Python+FFmpeg的视频和音频的处理/剪辑。
+
+- [jordiwang/web-capture](https://github.com/jordiwang/web-capture): 基于 ffmpeg + Webassembly 实现前端视频帧提取
+
+- [ccj659/NDK-FFmpeg-master](https://github.com/ccj659/NDK-FFmpeg-master): Video and audio decoding based with FFmpeg 基于ffmpeg的 视频解码 音频解码.播放等
+
 
 
 
