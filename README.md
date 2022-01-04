@@ -1,5 +1,21 @@
 # 2022年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
 
+本repo搜集整理全网ffmpeg学习资料。
+
+所有数据来源于互联网。所谓取之于互联网，用之于互联网。
+
+如果涉及版权侵犯，请邮件至 wchao_isvip@163.com ，我们将第一时间处理。
+
+如果您对我们的项目表示赞同与支持，欢迎您 [lssues](https://github.com/0voice/ffmpeg_develop_doc/issues) 我们，或者邮件 wchao_isvip@163.com 我们，更加欢迎您 pull requests 加入我们。
+
+感谢您的支持！
+
+<p align="center">
+  <a href="https://github.com/0voice/kernel_memory_management#%E8%81%94%E7%B3%BB%E4%B8%93%E6%A0%8F"><img src="https://img.shields.io/badge/微信公众号-green" alt=""></a>
+  <a href="https://www.zhihu.com/people/xiao-zhai-nu-linux"><img src="https://img.shields.io/badge/知乎-blue" alt=""></a>
+  <a href="https://space.bilibili.com/64514973"><img src="https://img.shields.io/badge/bilibili-red" alt=""></a>
+</p>
+
 ## ffmpeg常用命令
 
 ### `ffmpeg --help`大概分为6个部分，具体如下：
