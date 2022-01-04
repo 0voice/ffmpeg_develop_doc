@@ -26,6 +26,16 @@
 
 ## 🏗 开源项目
 
+- [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer): 基于FFmpeg n3.4的Android/iOS视频播放器，支持MediaCodec, VideoToolbox。
+
+- [befovy/fijkplayer](https://github.com/befovy/fijkplayer): ijkplayer for flutter. ijkplayer 的 flutter 封装。 Flutter video/audio player. Flutter media player plugin for android/iOS based on ijkplayer. fijkplayer 是基于 ijkplayer 封装的 flutter 媒体播放器，开箱即用，无需编译 ijkplayer
+
+- [mpenkov/ffmpeg-tutorial](https://github.com/mpenkov/ffmpeg-tutorial): 教程，演示如何编写一个基于FFmpeg的视频播放器
+
+- [imoreapps/ffmpeg-avplayer-for-ios-tvos](https://github.com/imoreapps/ffmpeg-avplayer-for-ios-tvos): 一个微小但强大的iOS和Apple TV OS的av播放器框架，是基于FFmpeg库。
+
+- [unosquare/ffmediaelement](https://github.com/unosquare/ffmediaelement): FFME:高级WPF MediaElement(基于FFmpeg)
+
 - [microshow/RxFFmpeg](https://github.com/microshow/RxFFmpeg)：RxFFmpeg 是基于 ( FFmpeg 4.0 + X264 + mp3lame + fdk-aac + opencore-amr + openssl ) 编译的适用于 Android 平台的音视频编辑、视频剪辑的快速处理框架，包含以下功能：视频拼接，转码，压缩，裁剪，片头片尾，分离音视频，变速，添加静态贴纸和gif动态贴纸，添加字幕，添加滤镜，添加背景音乐，加速减速视频，倒放音视频，音频裁剪，变声，混音，图片合成视频，视频解码图片，抖音首页，视频播放器及支持 OpenSSL https 等主流特色功能
 
 - [wang-bin/QtAV](https://github.com/wang-bin/QtAV): 基于Qt和FFmpeg的跨平台多媒体框架,高性能。用户和开发人员友好。支持Android, iOS, Windows商店和桌面。基于Qt和FFmpeg的跨平台高性能音视频播放框架
