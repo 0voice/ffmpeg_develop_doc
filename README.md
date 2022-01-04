@@ -24,6 +24,27 @@
   <a href="https://space.bilibili.com/64514973"><img src="https://img.shields.io/badge/bilibili-red" alt=""></a>
 </p>
 
+## 🏗 开源项目
+
+- [microshow/RxFFmpeg](https://github.com/microshow/RxFFmpeg)：RxFFmpeg 是基于 ( FFmpeg 4.0 + X264 + mp3lame + fdk-aac + opencore-amr + openssl ) 编译的适用于 Android 平台的音视频编辑、视频剪辑的快速处理框架，包含以下功能：视频拼接，转码，压缩，裁剪，片头片尾，分离音视频，变速，添加静态贴纸和gif动态贴纸，添加字幕，添加滤镜，添加背景音乐，加速减速视频，倒放音视频，音频裁剪，变声，混音，图片合成视频，视频解码图片，抖音首页，视频播放器及支持 OpenSSL https 等主流特色功能
+
+- [wang-bin/QtAV](https://github.com/wang-bin/QtAV): 基于Qt和FFmpeg的跨平台多媒体框架,高性能。用户和开发人员友好。支持Android, iOS, Windows商店和桌面。基于Qt和FFmpeg的跨平台高性能音视频播放框架
+
+- [xufuji456/FFmpegAndroid](https://github.com/xufuji456/FFmpegAndroid): android端基于FFmpeg实现音频剪切、拼接、转码、编解码；视频剪切、水印、截图、转码、编解码、转Gif动图；音视频合成与分离，配音；音视频解码、同步与播放；FFmpeg本地推流、H264与RTMP实时推流直播；FFmpeg滤镜：素描、色彩平衡、hue、lut、模糊、九宫格等；歌词解析与显示
+
+- [Zhaoss/WeiXinRecordedDemo](https://github.com/Zhaoss/WeiXinRecordedDemo): 仿微信视频拍摄UI, 基于ffmpeg的视频录制编辑
+
+- [yangjie10930/EpMedia](https://github.com/yangjie10930/EpMedia): Android上基于FFmpeg开发的视频处理框架，简单易用，体积小，帮助使用者快速实现视频处理功能。包含以下功能：剪辑，裁剪，旋转，镜像，合并，分离，变速，添加LOGO，添加滤镜，添加背景音乐，加速减速视频，倒放音视频
+
+- [goldvideo/h265player](https://github.com/goldvideo/h265player): 一套完整的Web版H.265播放器解决方案，非常适合学习交流和实际应用。基于JS码流解封装、WebAssembly(FFmpeg)视频解码，利用Canvas画布投影、AudioContext播放音频。
+
+- [wanliyang1990/wlmusic](https://github.com/wanliyang1990/wlmusic): 基于FFmpeg + OpenSL ES的音频播放SDK。可循环不间断播放短音频；播放raw和assets音频文件；可独立设置音量大小；可实时现在音量分贝大小（用于绘制波形图）；可改变音频播放速度和音调（变速不变调、变调不变速、变速又变调）；可设置播放声道（左声道、右声道和立体声）；可边播边录留住美好音乐；可裁剪指定时间段的音频，制作自己的彩铃；还可以从中获取音频原始PCM数据(可指定采样率)，方便二次开发等。
+
+- [Jackarain/avplayer](https://github.com/Jackarain/avplayer): 一个基于FFmpeg、libtorrent的P2P播放器实现
+
+
+
+
 ## 🖥️ ffmpeg常用命令
 
 ### `ffmpeg --help`大概分为6个部分，具体如下：
