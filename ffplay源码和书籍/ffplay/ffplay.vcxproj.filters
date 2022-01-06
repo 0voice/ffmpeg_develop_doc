@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libavcodec">
+      <UniqueIdentifier>{94bac1c7-3a5d-4c5c-9ada-d7f42de7259f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavformat">
+      <UniqueIdentifier>{d17f4d25-f28a-4175-92be-4834f6481e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavutil">
+      <UniqueIdentifier>{e95c5c62-22fc-4e57-8867-b02483bd60f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libavcodec\allcodecs.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavcodec\dsputil.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavcodec\imgconvert.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavcodec\msrle.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavcodec\truespeech.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavcodec\utils_codec.c">
+      <Filter>libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\allformats.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\avidec.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\avio.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\aviobuf.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\cutils.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\file.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="libavformat\utils_format.c">
+      <Filter>libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="ffplay.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libavcodec\avcodec.h">
+      <Filter>libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="libavcodec\dsputil.h">
+      <Filter>libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="libavcodec\imgconvert_template.h">
+      <Filter>libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="libavcodec\truespeech_data.h">
+      <Filter>libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="libavformat\avformat.h">
+      <Filter>libavformat</Filter>
+    </ClInclude>
+    <ClInclude Include="libavformat\avio.h">
+      <Filter>libavformat</Filter>
+    </ClInclude>
+    <ClInclude Include="libavutil\avutil.h">
+      <Filter>libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="libavutil\bswap.h">
+      <Filter>libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="libavutil\common.h">
+      <Filter>libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="libavutil\mathematics.h">
+      <Filter>libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="libavutil\rational.h">
+      <Filter>libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="berrno.h" />
+  </ItemGroup>
+</Project>

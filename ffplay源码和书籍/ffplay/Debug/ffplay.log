@@ -1,0 +1,68 @@
+﻿生成启动时间为 2016/11/18 15:28:25。
+     1>项目“E:\Work\研究生工作\COStream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\ffplay.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ffplay.c libavcodec\allcodecs.c libavcodec\dsputil.c libavcodec\imgconvert.c libavcodec\msrle.c libavcodec\truespeech.c libavcodec\utils_codec.c libavformat\allformats.c libavformat\avidec.c libavformat\avio.c libavformat\aviobuf.c libavformat\cutils.c libavformat\file.c libavformat\utils_format.c
+         utils_format.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\utils_format.c(5): warning C4005: “UINT_MAX”: 宏重定义
+                 d:\program files\microsoft visual studio 12.0\vc\include\limits.h(41) : 参见“UINT_MAX”的前一个定义
+         file.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(31): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\io.h(237) : 参见“_open”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(41): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\io.h(337) : 参见“read”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(47): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\io.h(342) : 参见“write”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(53): warning C4244: “函数”: 从“offset_t”转换到“long”，可能丢失数据
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(53): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\io.h(334) : 参见“lseek”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\file.c(59): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\io.h(326) : 参见“close”的声明
+         cutils.c
+         aviobuf.c
+         avio.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avio.c(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avio.c(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+         avidec.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avidec.c(121): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avidec.c(325): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avidec.c(642): warning C4244: “+=”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavformat\avidec.c(646): warning C4018: “>=”: 有符号/无符号不匹配
+         allformats.c
+         utils_codec.c
+         truespeech.c
+         msrle.c
+         imgconvert.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavcodec\imgconvert.c(1091): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavcodec\imgconvert_template.h(465): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\libavcodec\imgconvert_template.h(859): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+         dsputil.c
+         allcodecs.c
+         ffplay.c
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\ffplay.c(93): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 12.0\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>e:\work\研究生工作\costream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\ffplay.c(376): warning C4018: “>=”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ffplay.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Work\SDL-1.2.15\lib\x86" odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\ffplay.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ffplay.lib" /MACHINE:X86 /SAFESEH .\Debug\ffplay.obj
+         .\Debug\allcodecs.obj
+         .\Debug\dsputil.obj
+         .\Debug\imgconvert.obj
+         .\Debug\msrle.obj
+         .\Debug\truespeech.obj
+         .\Debug\utils_codec.obj
+         .\Debug\allformats.obj
+         .\Debug\avidec.obj
+         .\Debug\avio.obj
+         .\Debug\aviobuf.obj
+         .\Debug\cutils.obj
+         .\Debug\file.obj
+         .\Debug\utils_format.obj
+     1>ffplay.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         ffplay.vcxproj -> E:\Work\研究生工作\COStream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\.\Debug\ffplay.exe
+     1>已完成生成项目“E:\Work\研究生工作\COStream以及视频编码工程\音视频编解码的书籍\ffplay源码和书籍\ffplay\ffplay.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.76
