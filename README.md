@@ -76,14 +76,13 @@
 
 - [FFmpeg 学习(一)：FFmpeg 简介](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%80)%EF%BC%9AFFmpeg%20%E7%AE%80%E4%BB%8B%20.md)
 - [FFmpeg 学习(二)：Mac下安装FFmpepg](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%BA%8C)%EF%BC%9AMac%E4%B8%8B%E5%AE%89%E8%A3%85FFmpeg.md)
-- [学习(三)：将 FFmpeg 移植到 Android平台](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%89)%EF%BC%9A%E5%B0%86%20FFmpeg%20%E7%A7%BB%E6%A4%8D%E5%88%B0%20Android%E5%B9%B3%E5%8F%B0.md)
+- [FFmpeg 学习(三)：将 FFmpeg 移植到 Android平台](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%89)%EF%BC%9A%E5%B0%86%20FFmpeg%20%E7%A7%BB%E6%A4%8D%E5%88%B0%20Android%E5%B9%B3%E5%8F%B0.md)
 - [FFmpeg 学习(四)：FFmpeg API 介绍与通用 API 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E5%9B%9B)%EF%BC%9AFFmpeg%20API%20%E4%BB%8B%E7%BB%8D%E4%B8%8E%E9%80%9A%E7%94%A8%20API%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 学习(五)：FFmpeg 编解码 API 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%BA%94)%EF%BC%9AFFmpeg%20%E7%BC%96%E8%A7%A3%E7%A0%81%20API%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 学习(六)：FFmpeg 核心模块 libavformat 与 libavcodec 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E5%85%AD)%EF%BC%9AFFmpeg%20%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97%20libavformat%20%E4%B8%8E%20libavcodec%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 学习(七)：FFmpeg 学习整理总结](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%83)%EF%BC%9AFFmpeg%20%E5%AD%A6%E4%B9%A0%E6%95%B4%E7%90%86%E6%80%BB%E7%BB%93.md)
 
-
-
+<br>
 
 - [FFmpeg 结构体学习(一)： AVFormatContext 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E4%B8%80)%EF%BC%9A%20AVFormatContext%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 结构体学习(二)： AVStream 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E4%BA%8C)%EF%BC%9A%20AVStream%20%E5%88%86%E6%9E%90.md)
