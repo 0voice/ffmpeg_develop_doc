@@ -2,7 +2,7 @@
 
 libavformat的主要组成与层次调用关系如下图：
 
- ![img](https://images2018.cnblogs.com/blog/682616/201807/682616-20180720175819282-1689330427.png)
+![image](https://user-images.githubusercontent.com/87457873/148345134-91ce7724-18ec-4b1b-823b-12238e9c7a31.png)
 
 AVFromatContext是API层直接接触到的结构体，它会进行格式的封装和解封装，它的数据部分由底层提供，底层使用了AVIOContext，这个AVIOContext实际上就是为普通的I/O增加了一层Buffer缓冲区，再往底层就是URLContext，也就是达到了协议层，协议层的实现由很多，如rtmp、http、hls、file等，这个就是libavformat的内部封装结构了。
 
