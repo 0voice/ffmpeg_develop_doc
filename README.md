@@ -93,6 +93,61 @@
 - [FFmpeg 结构体学习(七)： AVIOContext 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E4%B8%83)%EF%BC%9A%20AVIOContext%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 结构体学习(八)：FFMPEG中重要结构体之间的关系](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E5%85%AB)%EF%BC%9AFFMPEG%E4%B8%AD%E9%87%8D%E8%A6%81%E7%BB%93%E6%9E%84%E4%BD%93%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.md)
 
+## 📰 论文
+
+[分布式视频处理系统设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于Android的H.264_AVC解码器的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EAndroid%E7%9A%84H.264_AVC%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于FFMPEG的视频转换系统](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFMPEG%E7%9A%84%E8%A7%86%E9%A2%91%E8%BD%AC%E6%8D%A2%E7%B3%BB%E7%BB%9F.pdf)
+
+[基于FFMPEG的跨平台视频编解码研究](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFMPEG%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E8%A7%86%E9%A2%91%E7%BC%96%E8%A7%A3%E7%A0%81%E7%A0%94%E7%A9%B6.pdf)
+
+[基于FFMPEG解码的音视频同步实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFMPEG%E8%A7%A3%E7%A0%81%E7%9A%84%E9%9F%B3%E8%A7%86%E9%A2%91%E5%90%8C%E6%AD%A5%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于FFMpeg的稳定应用层组播流媒体直播系统研究](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFMpeg%E7%9A%84%E7%A8%B3%E5%AE%9A%E5%BA%94%E7%94%A8%E5%B1%82%E7%BB%84%E6%92%AD%E6%B5%81%E5%AA%92%E4%BD%93%E7%9B%B4%E6%92%AD%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6.pdf)
+
+[基于FFmpeg和SDL的智能录屏及播放系统](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E5%92%8CSDL%E7%9A%84%E6%99%BA%E8%83%BD%E5%BD%95%E5%B1%8F%E5%8F%8A%E6%92%AD%E6%94%BE%E7%B3%BB%E7%BB%9F.pdf)
+
+[基于FFmpeg和SDL的视频流播放存储研究综述](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E5%92%8CSDL%E7%9A%84%E8%A7%86%E9%A2%91%E6%B5%81%E6%92%AD%E6%94%BE%E5%AD%98%E5%82%A8%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0.pdf)
+
+[基于FFmpeg的H.264解码器实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E7%9A%84H.264%E8%A7%A3%E7%A0%81%E5%99%A8%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于FFmpeg的网络视频监控系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E7%9A%84%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于FFmpeg的视频转码与保护系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E7%9A%84%E8%A7%86%E9%A2%91%E8%BD%AC%E7%A0%81%E4%B8%8E%E4%BF%9D%E6%8A%A4%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于FFmpeg的高清实时直播系统设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EFFmpeg%E7%9A%84%E9%AB%98%E6%B8%85%E5%AE%9E%E6%97%B6%E7%9B%B4%E6%92%AD%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于H.264与H.265的低延时视频监控系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EH.264%E4%B8%8EH.265%E7%9A%84%E4%BD%8E%E5%BB%B6%E6%97%B6%E8%A7%86%E9%A2%91%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于H.265的无线视频监控系统设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EH.265%E7%9A%84%E6%97%A0%E7%BA%BF%E8%A7%86%E9%A2%91%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于H.265的视频教育系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EH.265%E7%9A%84%E8%A7%86%E9%A2%91%E6%95%99%E8%82%B2%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于Hadoop的视频转码优化的研究](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8EHadoop%E7%9A%84%E8%A7%86%E9%A2%91%E8%BD%AC%E7%A0%81%E4%BC%98%E5%8C%96%E7%9A%84%E7%A0%94%E7%A9%B6.pdf)
+
+[基于RTMP协议的流媒体系统的设计实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTMP%E5%8D%8F%E8%AE%AE%E7%9A%84%E6%B5%81%E5%AA%92%E4%BD%93%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于RTMP的高清流媒体直播点播封装技术的研究与实现.caj](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTMP%E7%9A%84%E9%AB%98%E6%B8%85%E6%B5%81%E5%AA%92%E4%BD%93%E7%9B%B4%E6%92%AD%E7%82%B9%E6%92%AD%E5%B0%81%E8%A3%85%E6%8A%80%E6%9C%AF%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%AE%9E%E7%8E%B0.caj)
+
+[基于RTSP协议的iOS视频播放器的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTSP%E5%8D%8F%E8%AE%AE%E7%9A%84iOS%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于RTSP协议的多源视音频实时直播系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTSP%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%A4%9A%E6%BA%90%E8%A7%86%E9%9F%B3%E9%A2%91%E5%AE%9E%E6%97%B6%E7%9B%B4%E6%92%AD%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于RTSP的H.264实时流媒体传输方案的研究与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTSP%E7%9A%84H.264%E5%AE%9E%E6%97%B6%E6%B5%81%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93%E6%96%B9%E6%A1%88%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于RTSP的音视频传输系统研究与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ERTSP%E7%9A%84%E9%9F%B3%E8%A7%86%E9%A2%91%E4%BC%A0%E8%BE%93%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[基于TCP传输的嵌入式流媒体播放系统](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8ETCP%E4%BC%A0%E8%BE%93%E7%9A%84%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%B5%81%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E7%B3%BB%E7%BB%9F.pdf)
+
+[基于ffmpeg的高性能高清流媒体播放器软件设计](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8Effmpeg%E7%9A%84%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E6%B8%85%E6%B5%81%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E5%99%A8%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1.pdf)
+
+[基于流媒体技术的移动视频直播系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%9F%BA%E4%BA%8E%E6%B5%81%E5%AA%92%E4%BD%93%E6%8A%80%E6%9C%AF%E7%9A%84%E7%A7%BB%E5%8A%A8%E8%A7%86%E9%A2%91%E7%9B%B4%E6%92%AD%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[直播聚合平台的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E7%9B%B4%E6%92%AD%E8%81%9A%E5%90%88%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+
+[音视频信号采集压缩及传输系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E9%9F%B3%E8%A7%86%E9%A2%91%E4%BF%A1%E5%8F%B7%E9%87%87%E9%9B%86%E5%8E%8B%E7%BC%A9%E5%8F%8A%E4%BC%A0%E8%BE%93%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
 
 
 ## 🖥️ ffmpeg常用命令
