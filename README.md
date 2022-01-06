@@ -72,6 +72,10 @@
 
 - [ccj659/NDK-FFmpeg-master](https://github.com/ccj659/NDK-FFmpeg-master): Video and audio decoding based with FFmpeg 基于ffmpeg的 视频解码 音频解码.播放等
 
+- [kolyvan/kxmovie](https://github.com/kolyvan/kxmovie):iOS电影播放器使用ffmpeg
+
+- [CainKernel/CainCamera](https://github.com/CainKernel/CainCamera):一个关于美容相机、图像和短视频开发的Android项目
+
 ## 📃 文章
 
 - [FFmpeg 学习(一)：FFmpeg 简介](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%80)%EF%BC%9AFFmpeg%20%E7%AE%80%E4%BB%8B%20.md)
