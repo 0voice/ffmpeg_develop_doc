@@ -86,6 +86,17 @@
 
 - [CainKernel/CainCamera](https://github.com/CainKernel/CainCamera):一个关于美容相机、图像和短视频开发的Android项目
 
+## 📂 典藏文档
+
+- [AAC解码算法原理详解](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/AAC%E8%A7%A3%E7%A0%81%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.pdf)
+- [FFMPEG教程完美排版](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/FFMPEG%E6%95%99%E7%A8%8B%E5%AE%8C%E7%BE%8E%E6%8E%92%E7%89%88.pdf)
+- [FFMpeg-SDK-开发手册](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/FFMpeg-SDK-%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C.pdf)
+- [FFmpeg Basics](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/FFmpeg%20Basics.pdf)
+- [ffmpeg(libav)解码全解析(带书签)](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/ffmpeg(libav)%E8%A7%A3%E7%A0%81%E5%85%A8%E8%A7%A3%E6%9E%90(%E5%B8%A6%E4%B9%A6%E7%AD%BE).pdf)
+- [ffmpeg的tutorial中文版](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/ffmpeg%E7%9A%84tutorial%E4%B8%AD%E6%96%87%E7%89%88.pdf)
+- [ffmpeg中文文档](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/ffmpeg%E7%9A%84%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3.pdf)
+- [详解FFMPEG API](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/%E8%AF%A6%E8%A7%A3FFMPEG%20API.pdf)
+
 ## 📃 文章
 
 - [FFmpeg 学习(一)：FFmpeg 简介](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E5%AD%A6%E4%B9%A0(%E4%B8%80)%EF%BC%9AFFmpeg%20%E7%AE%80%E4%BB%8B%20.md)
