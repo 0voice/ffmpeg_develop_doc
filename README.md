@@ -1112,3 +1112,11 @@ ffmpeg -i 20120814164324_205.wav -acodec  libfaac -ab 64k -ar 44100  output.aac
 ffmpeg -i output.aac -acodec libfaac -y -ab 32 -ar 44100 -qscale 10 -s 640*480 -r 15 outp
 ```
 
+## 联系专栏
+
+#### [【免费】FFmpeg/WebRTC/RTMP/NDK/Android音视频流媒体高级开发](https://ke.qq.com/course/3202131?flowToken=1035265)
+
+#### 关注微信公众号【后台服务架构师】——【联系我们】，获取本repo最全PDF学习文档！
+
+<img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/130796999-03af3f54-3719-47b4-8e41-2e762ab1c68b.png"/>
+
