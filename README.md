@@ -160,6 +160,73 @@
 ##### [59. 何为homebrew？你用它安装过什么？常用命令有哪些？](https://github.com/0voice/audio_video_streaming/blob/main/case_interview/002-README.md#subject_059)
 ##### [60. RTMP、HLS协议各自的默认端口号是？](https://github.com/0voice/audio_video_streaming/blob/main/case_interview/002-README.md#subject_060)
 
+## 🧿 视频
+
+### 国外大神
+
+No.|title
+:------- | :---------------
+1|[如何使用FFMPEG将MP4视频文件转换为GIF](https://www.0voice.com/uiwebsite/audio_video_streaming/video/001-如何使用FFMPEG将MP4视频文件转换为GIF.mp4)
+2|[FFMPEG Introduction & Examples](https://www.0voice.com/uiwebsite/audio_video_streaming/video/002-FFMPEG%20Introduction%20%26%20Examples.mp4)
+3|[Live Streaming with Nginx and FFmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/003-Live%20Streaming%20with%20Nginx%20and%20FFmpeg.mp4)
+4|[Ep2 Ffmpeg Nginx & Nginx-Rtmp-Module Streaming to Server](https://www.0voice.com/uiwebsite/audio_video_streaming/video/004-Ep2%20Ffmpeg%20Nginx%20%26%20Nginx-Rtmp-Module%20Streaming%20to%20Server.mp4)
+5|[Streaming an IP Camera to a Web Browser using FFmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/005-Streaming%20an%20IP%20Camera%20to%20a%20Web%20Browser%20using%20FFmpeg.mp4)
+6|[Easy Screencasting and Webcamming with ffmpeg in Linux](https://www.0voice.com/uiwebsite/audio_video_streaming/video/006-Easy%20Screencasting%20and%20Webcamming%20with%20ffmpeg%20in%20Linux.mp4)
+7|[Streaming an IP Camera to a Web Browser using FFmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/007-Streaming%20an%20IP%20Camera%20to%20a%20Web%20Browser%20using%20FFmpeg.mp4)
+8|[FFMPEG Advanced Techniques Pt2 - Filtergraphs & Timeline](https://www.0voice.com/uiwebsite/audio_video_streaming/video/008-FFMPEG%20Advanced%20Techniques%20Pt2%20-%20Filtergraphs%20%26%20Timeline.mp4)
+9|[Convert HEVCh265 mkv video to AVCh264 mp4 with ffmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/009-Convert%20HEVCh265%20mkv%20video%20to%20AVCh264%20mp4%20with%20ffmpeg.mp4)
+10|[How to add soft subtitles( srt subrip) to mp4 video using ffmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/010-How%20to%20add%20soft%20subtitles(%20srt%20subrip)%20to%20mp4%20video%20using%20ffmpeg.mp4)
+11|[FFmpeg Processing multiple video files by using.bat file](https://www.0voice.com/uiwebsite/audio_video_streaming/video/011-FFmpeg%20Processing%20multiple%20video%20files%20by%20using.bat%20file.mp4)
+12|[Opensource Multimedia Framework -- FFmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/012-Opensource%20Multimedia%20Framework%20--%20FFmpeg.mp4)
+13|[rtsp streaming node js ip camera jsmpeg](https://www.0voice.com/uiwebsite/audio_video_streaming/video/013-rtsp%20streaming%20node%20js%20ip%20camera%20jsmpeg.mp4)
+14|[H.265 RTSP Streaming to VLC + NewTek NDI Integration](https://www.0voice.com/uiwebsite/audio_video_streaming/video/014-H.265%20RTSP%20Streaming%20to%20VLC%20+%20NewTek%20NDI%20Integration.mp4)
+15|[IP camera stream using RTSP and openCV python](https://www.0voice.com/uiwebsite/audio_video_streaming/video/015-IP%20camera%20stream%20using%20RTSP%20and%20openCV%20python.mp4)
+16|[NAT Traversal & RTSP](https://www.0voice.com/uiwebsite/audio_video_streaming/video/016-NAT%20Traversal%20%26%20RTSP.mp4)
+17|[Simple client et serveur de Streaming RTSP MJPEG(JAVA SE)](https://www.0voice.com/uiwebsite/audio_video_streaming/video/017-Simple%20client%20et%20serveur%20de%20Streaming%20RTSP%20MJPEG(JAVA%20SE).mp4)
+18|[Build Your First WebRTC Video Chat App](https://www.0voice.com/uiwebsite/audio_video_streaming/video/018-Build%20Your%20First%20WebRTC%20Video%20Chat%20App.mp4)
+19|[P2P Video Chat with JavaScript/WebRTC](https://www.0voice.com/uiwebsite/audio_video_streaming/video/019-P2P%20Video%20Chat%20with%20JavaScript%20WebRTC.mp4)
+20|[Building a WebRTC app - LIVE](https://www.0voice.com/uiwebsite/audio_video_streaming/video/020-Building%20a%20WebRTC%20app%20-%20LIVE.mp4)
+21|[Zoom vs WebRTC](https://www.0voice.com/uiwebsite/audio_video_streaming/video/021-Zoom%20vs%20WebRTC.mp4)
+22|[Architectures for a kickass WebRTC application](https://www.0voice.com/uiwebsite/audio_video_streaming/video/022-Architectures%20for%20a%20kickass%20WebRTC%20application.mp4)
+23|[(REACT NATIVE) - integrate webRTC](https://www.0voice.com/uiwebsite/audio_video_streaming/video/023-(REACT%20NATIVE)%20-%20integrate%20webRTC.mp4)
+24|[How to build Serverless Video Chat App using Firebase and WebRTC in React](https://www.0voice.com/uiwebsite/audio_video_streaming/video/024-How%20to%20build%20Serverless%20Video%20Chat%20App%20using%20Firebase%20and%20WebRTC%20in%20React.mp4)
+25|[Implementation Lessons using WebRTC in Asterisk](https://www.0voice.com/uiwebsite/audio_video_streaming/video/025-Implementation%20Lessons%20using%20WebRTC%20in%20Asterisk.mp4)
+
+### 国内大佬
+
+No.|title | 地址
+:------- | :---------------| :---------------
+26|windows ffmpeg命令行环境搭建|[百度网盘](https://pan.baidu.com/s/1eCQ7o3gcuU06k6-ZcXUASQ)  提取码：i3f2
+27|FFMPEG如何查询命令帮助文档|[百度网盘](https://pan.baidu.com/s/1oA2OErmfZZpEEY_wRQrl_A)  提取码：9mqk
+28|ffmpeg音视频处理流程|[百度网盘](https://pan.baidu.com/s/1jSIop6IUtxOwkse7xnCI7Q)  提取码：azx3
+29|ffmpeg命令分类查询|[百度网盘](https://pan.baidu.com/s/1VGwop_lOJozEh_gYpKYkrw)  提取码：odhc
+30|ffplay播放控制|[百度网盘](https://pan.baidu.com/s/1BbKQvJdokQrazoNtYjhA2Q)  提取码：e51s
+31|ffplay命令选项(上)|[百度网盘](https://pan.baidu.com/s/1upOGZQdmXyiZbWO1LBcTCQ)  提取码：n1zx
+32|ffplay命令选项(下)|[百度网盘](https://pan.baidu.com/s/1d55H9PyK1CU9Nfu37NIBhw)  提取码：rtn0
+33|ffplay命令播放媒体|[百度网盘](https://pan.baidu.com/s/1FjJnW8eBZxsKIIdvbh0f-A)  提取码：bs9s
+34|ffplay简单过滤器|[百度网盘](https://pan.baidu.com/s/1YlkCGIMH62Wj0-OTRLxDkA)  提取码：r4rk
+35|ffmpeg命令参数说明|[百度网盘](https://pan.baidu.com/s/1aOL7vXnspVAh-iNYsz_5xA)  提取码：5q18
+36|ffmpeg命令提取音视频数据|[百度网盘](https://pan.baidu.com/s/1Zlv_6a-O9Fj9HFpt9S6Z5g)  提取码：v807
+37|ffmpeg命令提取像素格式和PCM数据|[百度网盘](https://pan.baidu.com/s/1Z1cdwVexIvAiyCQNPA0k3A)  提取码：az9x
+38|ffmpeg命令转封装|[百度网盘](https://pan.baidu.com/s/1TxZpe2RicrGWgZPhi81E2g)  提取码：s7ez
+39|fmpeg命令裁剪和合并视频|[百度网盘](https://pan.baidu.com/s/1W8b_krHc3PzAfoRXneS2Wg)  提取码：6g0g
+40|fmpeg命令图片与视频互转|[百度网盘](https://pan.baidu.com/s/1nHhhA3y8dHneFVfNoY_fHg)  提取码：a3p5
+41|ffmpeg命令视频录制|[百度网盘](https://pan.baidu.com/s/1zGz_P34GHKE5KVt_b8bT3w)  提取码：em7b
+42|ffmpeg命令直播(上)|[百度网盘](https://pan.baidu.com/s/1rtCfJWWaanK6Syk2254h2g)  提取码：ilxz
+43|ffmpeg命令直播(下)|[百度网盘](https://pan.baidu.com/s/1mo7vo4d_ghqrue7gzE0M1g)  提取码：akyr
+44|ffmpeg过滤器-裁剪|[百度网盘](https://pan.baidu.com/s/1vuQLx_ff8ZnlStxX2aOeXA)  提取码：toii
+45|ffmpeg过滤器-文字水印|[百度网盘](https://pan.baidu.com/s/1YilCkZg99xhwEQBwjenWKQ)  提取码：unuu
+46|ffmpeg过滤器-图片水印|[百度网盘](https://pan.baidu.com/s/11VFsXn-c8e9GZ3Wy4M8hAA)  提取码：mw4v
+47|ffmpeg过滤器-画中画|[百度网盘](https://pan.baidu.com/s/1TFiR47qhPTHAzbSQhatEBA)  提取码：c6fc
+48|ffmpeg过滤器-多宫格|[百度网盘](https://pan.baidu.com/s/1Ib73MtuqgaFoECuSrzOApQ)  提取码：aioi
+49|SRS流媒体服务器实战(上)|[百度网盘](https://pan.baidu.com/s/1kZTa5-0kfCcdMiObpJdOfQ)  提取码：4134
+50|SRS流媒体服务器实战(下)|[百度网盘](https://pan.baidu.com/s/1goy3g9rmHc-JmO9VpsCKvg)  提取码：g4be
+51|音视频开发-ffplay.iikplayer、vlc的播放器设计实现|[百度网盘](https://pan.baidu.com/s/1NTT_fzfkWIYy2DX90joAoA)  提取码：1img
+52|音视频成长之路-进阶三部曲|[百度网盘](https://pan.baidu.com/s/1XUTn60ZHTBt63CmQe2vObw)  提取码：4nw3
+53|为什么直播领域也要搞WebRTC-srs4.0|[百度网盘](https://pan.baidu.com/s/1c9dexc7-QglR-0hkvqnUEQ)  提取码：m47a
+54|腾讯课堂直播如何做到低延迟|[百度网盘](https://pan.baidu.com/s/1oRuwvWRyw7YjDAqzMPnZyQ)  提取码：jruh
+55|rtmp2webrtc提出问题-灵魂拷问|[百度网盘](https://pan.baidu.com/s/1cyf0qCYUYKNyfSchyY6aWQ)  提取码：pupp
+
 ## 📰 论文
 
 [分布式视频处理系统设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
