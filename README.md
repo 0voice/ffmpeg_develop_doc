@@ -26,11 +26,11 @@
 
 - 目录
   - [@ 开源项目](https://github.com/0voice/ffmpeg_develop_doc#-%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE)
+  - [@ 典藏文档](https://github.com/0voice/ffmpeg_develop_doc#-%E5%85%B8%E8%97%8F%E6%96%87%E6%A1%A3)
   - [@ 系列文章](https://github.com/0voice/ffmpeg_develop_doc#-%E6%96%87%E7%AB%A0)
   - [@ 面试题](https://github.com/0voice/ffmpeg_develop_doc#-%E9%9D%A2%E8%AF%95%E9%A2%98)
   - [@ 教学视频](https://github.com/0voice/ffmpeg_develop_doc#-%E8%A7%86%E9%A2%91)
   - [@ 学术论文](https://github.com/0voice/ffmpeg_develop_doc#-%E8%AE%BA%E6%96%87)
-  - [@ ffmpeg常用命令](https://github.com/0voice/ffmpeg_develop_doc#%EF%B8%8F-ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
   - [@ 资料下载](https://github.com/0voice/ffmpeg_develop_doc#%E8%81%94%E7%B3%BB%E4%B8%93%E6%A0%8F)
 
 
