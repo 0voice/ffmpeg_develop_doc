@@ -1118,7 +1118,7 @@ ffmpeg -i output.aac -acodec libfaac -y -ab 32 -ar 44100 -qscale 10 -s 640*480 -
 
 #### ffmpeg学习资料包：ffmpeg入门系列教程
 
-![%W~BOCB3H)5Q)(AZC(5X%V4](https://user-images.githubusercontent.com/87457873/148544835-6355a58e-73ff-4d99-905f-6a22db167c3c.jpg)
+<img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/148544835-6355a58e-73ff-4d99-905f-6a22db167c3c.jpg"/>
 
 #### 关注微信公众号【后台服务架构师】——【联系我们】，免费获取更多FFmepg学习资料！
 
