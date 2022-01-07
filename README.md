@@ -19,7 +19,7 @@
 感谢您的支持！
 
 <p align="center">
-  <a href="https://github.com/0voice/kernel_memory_management#%E8%81%94%E7%B3%BB%E4%B8%93%E6%A0%8F"><img src="https://img.shields.io/badge/微信公众号-green" alt=""></a>
+  <a href="https://github.com/0voice/ffmpeg_develop_doc#%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%B8%88%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC%E5%85%8D%E8%B4%B9%E8%8E%B7%E5%8F%96%E6%9B%B4%E5%A4%9Affmepg%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99"><img src="https://img.shields.io/badge/微信公众号-green" alt=""></a>
   <a href="https://www.zhihu.com/people/xiao-zhai-nu-linux"><img src="https://img.shields.io/badge/知乎-blue" alt=""></a>
   <a href="https://space.bilibili.com/64514973"><img src="https://img.shields.io/badge/bilibili-red" alt=""></a>
 </p>
