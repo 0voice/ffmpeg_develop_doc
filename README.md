@@ -86,6 +86,8 @@
 
 - [CainKernel/CainCamera](https://github.com/CainKernel/CainCamera):一个关于美容相机、图像和短视频开发的Android项目
 
+- [mifi/lossless-cut](https://github.com/mifi/lossless-cut): 一个基于FFmpeg的无损剪辑软件
+
 ## 📂 典藏文档
 
 - [AAC解码算法原理详解](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/AAC%E8%A7%A3%E7%A0%81%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3.pdf)
@@ -118,6 +120,10 @@
 - [FFmpeg 结构体学习(六)： AVCodecContext 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E5%85%AD)%EF%BC%9A%20AVCodecContext%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 结构体学习(七)： AVIOContext 分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E4%B8%83)%EF%BC%9A%20AVIOContext%20%E5%88%86%E6%9E%90.md)
 - [FFmpeg 结构体学习(八)：FFMPEG中重要结构体之间的关系](https://github.com/0voice/ffmpeg_develop_doc/blob/main/FFmpeg%20%E7%BB%93%E6%9E%84%E4%BD%93%E5%AD%A6%E4%B9%A0(%E5%85%AB)%EF%BC%9AFFMPEG%E4%B8%AD%E9%87%8D%E8%A6%81%E7%BB%93%E6%9E%84%E4%BD%93%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.md)
+
+<br>
+
+- [Linux上的ffmpeg完全使用指南](https://github.com/0voice/ffmpeg_develop_doc/blob/main/Linux%E4%B8%8A%E7%9A%84ffmpeg%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 
 ## 🌅 面试题
 
