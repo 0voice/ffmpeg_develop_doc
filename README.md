@@ -124,6 +124,7 @@
 <br>
 
 - [Linux上的ffmpeg完全使用指南](https://github.com/0voice/ffmpeg_develop_doc/blob/main/Linux%E4%B8%8A%E7%9A%84ffmpeg%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+- [3个重点，20个函数分析，浅析FFmpeg转码过程](https://github.com/0voice/ffmpeg_develop_doc/blob/main/3%E4%B8%AA%E9%87%8D%E7%82%B9%EF%BC%8C20%E4%B8%AA%E5%87%BD%E6%95%B0%E5%88%86%E6%9E%90%EF%BC%8C%E6%B5%85%E6%9E%90FFmpeg%E8%BD%AC%E7%A0%81%E8%BF%87%E7%A8%8B.md)
 
 ## 🌅 面试题
 
