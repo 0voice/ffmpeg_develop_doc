@@ -99,6 +99,7 @@
 - [ffmpeg中文文档](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/ffmpeg%E7%9A%84%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3.pdf)
 - [详解FFMPEG API](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E6%96%87%E6%A1%A3%E5%BA%93/%E8%AF%A6%E8%A7%A3FFMPEG%20API.pdf)
 - [ffmpeg常用命令参数详解](https://github.com/0voice/ffmpeg_develop_doc/blob/main/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
+- [ffmepg整体分析](https://github.com/0voice/ffmpeg_develop_doc/blob/main/ffmepg%E6%95%B4%E4%BD%93%E5%88%86%E6%9E%90.pdf)
 
 ## 📃 文章
 
