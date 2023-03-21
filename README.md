@@ -379,9 +379,10 @@ No.|title | 地址
 
 #### 音视频学习资料包：
 
-<img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/148544835-6355a58e-73ff-4d99-905f-6a22db167c3c.jpg"/>
+<img width="65%" height="65%" src="https://user-images.githubusercontent.com/86775608/226612890-bfbc3dcc-f694-4942-9d48-abcbaa8a9a50.png"/>
 
-#### 关注微信公众号【后台服务架构师】——【联系我们】，免费获取更多FFmepg学习资料！
+##### 资料包包含：音视频基础、ffmpeg、webrtc、rtmp、SRS、Android、iOS等资料。本repo内容来源于互联网，本repo仅限于整理总结。
 
-<img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/130796999-03af3f54-3719-47b4-8e41-2e762ab1c68b.png"/>
+##### 音视频交流群: 994289133, [偶遇技术大佬交流，不定期书籍红包福利，每晚技术直播通知！](https://jq.qq.com/?_wv=1027&k=WSuBPY3u)
 
+##### 点击进入 [每晚八点技术直播](https://ke.qq.com/course/3202131?flowToken=1035185)
