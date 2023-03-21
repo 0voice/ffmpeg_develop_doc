@@ -1,0 +1,200 @@
+**AVPlayer**属于AVFoundation框架，不仅能够播放音频，还可以播放视频，支持本地和网链，更加接近底层，定制也更加灵活。
+
+为什么要写这篇文章呢？其因有二：
+
+- 1、github上有很多播放音频的优秀三方的框架，很方便，也很容易集成，但问题也比较多，底层都是C或者C++，要修改一个小BUG，难度系数比较高，例如:
+
+[StreamingKit](https://link.jianshu.com/?t=https://github.com/tumtumtum/StreamingKit)
+
+[FreeStreamer](https://link.jianshu.com/?t=https://github.com/muhku/FreeStreamer)
+
+[AudioStreamer](https://link.jianshu.com/?t=https://github.com/mattgallagher/AudioStreamer)
+
+[AFSoundManager](https://link.jianshu.com/?t=https://github.com/AlvaroFranco/AFSoundManager)
+
+[DOUAudioStreamer](https://link.jianshu.com/?t=https://github.com/douban/DOUAudioStreamer)
+
+以上，除了FreeStreamer，其他的几个框架都使用过，其中StreamingKit和DOUAudioStreamer在线上版本使用过，性能都比较不错。
+
+**DOUAudioStreamer**  唯一的问题就是在使用缓存继续播放，有问题，并且不支持seekToTime，这句话的意思呢就是，整个音频缓冲完毕才能继续播放，如果快进的时候整个音频没有缓冲完成（网络较差的时候，音频较大），这个就比较坑了。 **StreamingKit**  这个有个问题就是缓冲的进度无法回调，无法获取，源码都是互斥锁，自旋锁，看着各种晕菜，有个问题就是，可能是我使用的姿势不对，缓存文件比较大，但是在沙盒又找不见这个文件的存在，无法删除，API也没有提供对应的接口，在手机的空间存储中查看，占用空间很大。 2、这些框架很久都没人维护，面对现在的产品需求，不能满足。
+
+*基于以上原因,结合自己项目中出现的问题，决定用强悍的AV框架中AVPlayer,自己写一个， 功能如下：*
+
+不要求实现流播
+
+能支持缓存播放
+
+有缓存进度回调
+
+可以清除缓存文件即可
+
+## 1.AVPlayer基础用法介绍
+
+以前做视频开发，在播放视频时，只是简单的播放一个视频，而不需要考虑播放器的界面。
+
+1、iOS9.0 之前使用 MPMoviePlayerController, 或者自带一个 view 的 MPMoviePlayerViewController。
+
+ 2、iOS9.0 之后，可以使用新的API AVPictureInPictureController, AVPlayerViewController。
+
+ 3、甚至使用WKWebView。
+
+  以上播放器都是系统提供，优点：封装性很强，使用简单方便。缺点：自由定制度太低。 所以在我们需要自己定制播放器的时候，就需要时用**AVPlayer**。 AVPlayer继承NSObject，所以单独使用AVPlayer时无法显示视频的，必须将视频图层添加到AVPlayerLayer中方能显示视频。使用AVPlayer首先了解一下几个常用的类：
+
+ 1、**AVAsset**：AVAsset类专门用于获取多媒体的相关信息,包括获取多媒体的画面、声音等信息，属于一个抽象类，不能直接使用。
+
+ 2、**AVURLAsset**：AVAsset的子类，可以根据一个URL路径
+
+一个包含媒体信息的AVURLAsset对象。 
+
+3、**AVPlayerItem**：一个媒体资源管理对象，管理者视频的一些基本信息和状态，一个AVPlayerItem对应着一个视频资源。
+
+ 4、**AVPlayer**：播放器。 
+
+5、**CMTime**：是一个结构体，里面存储着当前的播放进度，总的播放时长。 一般项目中会初始化一个播放管理的工具类（单例）：
+
+## 2.实例化一个AVPlayer：
+
+```
+- (AVPlayer *)player {
+    if (_player == nil) {
+        _player = [[AVPlayer alloc] init];
+        _player.volume = 1.0; // 默认最大音量
+    }
+    return _player;
+}
+```
+
+2、播放一个音频（本地和网络都可以）
+
+```
+//播放音频的方法
+- (void)p_musicPlayerWithURL:(NSURL *)playerItemURL{
+    // 移除监听
+    [self p_currentItemRemoveObserver];
+    // 创建要播放的资源
+    AVPlayerItem *playerItem = [[AVPlayerItem alloc]initWithURL:playerItemURL];
+    // 播放当前资源
+    [self.player replaceCurrentItemWithPlayerItem:playerItem];
+    // 添加观察者
+    [self p_currentItemAddObserver];
+}
+```
+
+## 3.注册，使用KVO监听**self.player.currentItem**
+
+> 1、监听status，AVPlayerItemStatus有三种状态：
+
+```
+typedef NS_ENUM(NSInteger, AVPlayerItemStatus) {
+    AVPlayerItemStatusUnknown,
+    AVPlayerItemStatusReadyToPlay,
+    AVPlayerItemStatusFailed
+};
+```
+
+2、监听loadedTimeRanges，这个就是缓冲进度，可以进行缓冲进度条的设置 3、AVPlayerItemDidPlayToEndTimeNotification，注册这个通知，当播放器播放完成的时候进行回调。 4、addPeriodicTimeObserverForInterval，监听当前播放进度。 监听和移除代码如下：
+
+```
+- (void)p_currentItemRemoveObserver {
+    [self.player.currentItem removeObserver:self  forKeyPath:@"status"];
+    [self.player.currentItem removeObserver:self forKeyPath:@"loadedTimeRanges"];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
+    [self.player removeTimeObserver:self.timeObserver];
+}
+
+- (void)p_currentItemAddObserver {
+    
+    //监控状态属性，注意AVPlayer也有一个status属性，通过监控它的status也可以获得播放状态
+    [self.player.currentItem addObserver:self forKeyPath:@"status" options:(NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew) context:nil];
+    
+    //监控缓冲加载情况属性
+    [self.player.currentItem addObserver:self forKeyPath:@"loadedTimeRanges" options:NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew context:nil];
+    
+    //监控播放完成通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackFinished:) name:AVPlayerItemDidPlayToEndTimeNotification object:self.player.currentItem];
+    
+    //监控时间进度
+    @weakify(self);
+    self.timeObserver = [self.player addPeriodicTimeObserverForInterval:CMTimeMake(1, 1) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
+        @strongify(self);
+        // 在这里将监听到的播放进度代理出去，对进度条进行设置
+        if (self.delegate && [self.delegate respondsToSelector:@selector(updateProgressWithPlayer:)]) {
+            [self.delegate updateProgressWithPlayer:self.player];
+        }
+    }];
+}
+```
+
+4、KVO处理
+
+```
+#pragma mark - KVO
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    
+    AVPlayerItem *playerItem = object;
+    if ([keyPath isEqualToString:@"status"]) {
+        AVPlayerItemStatus status = [change[@"new"] integerValue];
+        switch (status) {
+            case AVPlayerItemStatusReadyToPlay:
+            {
+                // 开始播放
+                [self play];
+                // 代理回调，开始初始化状态
+                if (self.delegate && [self.delegate respondsToSelector:@selector(startPlayWithplayer:)]) {
+                    [self.delegate startPlayWithplayer:self.player];
+                }
+            }
+                break;
+            case AVPlayerItemStatusFailed:
+            {
+                NSLog(@"加载失败");
+                TOAST_MSG(@"播放错误");
+            }
+                break;
+            case AVPlayerItemStatusUnknown:
+            {
+                NSLog(@"未知资源");
+                TOAST_MSG(@"播放错误");
+            }
+                break;
+            default:
+                break;
+        }
+    } else if([keyPath isEqualToString:@"loadedTimeRanges"]){
+        NSArray *array=playerItem.loadedTimeRanges;
+       //本次缓冲时间范围
+        CMTimeRange timeRange = [array.firstObject CMTimeRangeValue];
+        float startSeconds = CMTimeGetSeconds(timeRange.start);
+        float durationSeconds = CMTimeGetSeconds(timeRange.duration);
+        //缓冲总长度
+        NSTimeInterval totalBuffer = startSeconds + durationSeconds;
+        NSLog(@"共缓冲：%.2f",totalBuffer);
+        if (self.delegate && [self.delegate respondsToSelector:@selector(updateBufferProgress:)]) {
+            [self.delegate updateBufferProgress:totalBuffer];
+        }
+        
+    } else if ([keyPath isEqualToString:@"rate"]) {
+        // rate=1:播放，rate!=1:非播放
+        float rate = self.player.rate;
+        if (self.delegate && [self.delegate respondsToSelector:@selector(player:changeRate:)]) {
+            [self.delegate player:self.player changeRate:rate];
+        }
+    } else if ([keyPath isEqualToString:@"currentItem"]) {
+        NSLog(@"新的currentItem");
+        if (self.delegate && [self.delegate respondsToSelector:@selector(changeNewPlayItem:)]) {
+            [self.delegate changeNewPlayItem:self.player];
+        }
+    }
+}
+
+- (void)playbackFinished:(NSNotification *)notifi {
+    NSLog(@"播放完成");
+}
+```
+
+以上只是demo片段，[核心代码](https://link.jianshu.com/?t=https://git.oschina.net/jueying/AVPlayerDemo.git)。
+
+后面会介绍如何处理缓冲进度条、如何使用缓存进行播放。
+
+未完待续... 作者：jueyingxx 链接：https://www.jianshu.com/p/bb2060fe6d5e 来源：简书 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
