@@ -375,9 +375,9 @@ No.|title | 地址
 
 ## 联系专栏
 
-#### [【免费】FFmpeg/WebRTC/RTMP/NDK/Android音视频流媒体高级开发](https://ke.qq.com/course/3202131?flowToken=1035265)
+#### [【免费】FFmpeg/WebRTC/RTMP/NDK/Android音视频流媒体高级开发](https://ke.qq.com/course/3202131?flowToken=1035185)
 
-#### ffmpeg学习资料包：ffmpeg入门系列教程
+#### 音视频学习资料包：
 
 <img width="65%" height="65%" src="https://user-images.githubusercontent.com/87457873/148544835-6355a58e-73ff-4d99-905f-6a22db167c3c.jpg"/>
 
