@@ -1,0 +1,71 @@
+这里主要介绍**AVFundation**框架中的组件，讲解音频的录制以及合成，还有一些注意事项。
+
+## 1、音频的采集
+
+音频既能与图像结合组合成视频数据，也能以纯音频的方式采集播放，后者应用场景多为在线电台和语音电台。音频的采集过程主要是通过设备将环境中的模拟信号采集成[PCM编码](https://link.jianshu.com?t=http://baike.baidu.com/link?url=kHPxW_fEZPhm6aor2AmRQZ06SYvceODR0O6N-3weiuJKT-JrxWXzhdJVJXlELa8Jg29l9fBPJWMcbJaqkymtFBEI93VgjGlg-Fs9kUe1KrCfkr5NoYWTw3qe6npYOIte)的原始数据，然后压缩成mp3等格式分发出去。
+
+音频采集的主要难点：延迟敏感、卡顿敏感、回声消除、噪声消除、静音监测及各种混音算法等。
+
+音频采集的主要技术参数：
+
+**采样率** — 采样就是把模拟信号数字化的过程。[采样频率](https://link.jianshu.com/?t=http://baike.baidu.com/link?url=RLXNY4GGdEtR3KNbz6F84Kw-f8aPW97dV-YcWRvLdA9sRkYChIzvxXP9LYLAzLmjWpPpiAxavyqmzvDFU1D_aECudvi6ZhbT5Z-V_C7uiUfulcUhDoWlHE2WJ7zyKgIPgcSZxYScpcGe1t--dpV3k_cyBf6G0dVvlVAUvKt7xcINsWTO2UOx0ry120OOhHnQEn08Cuh6N1hwhKiAvvrEy_)越高，记录这个音频信号所用的数据量也就越大，对应的得到音频的质量也就越高。
+
+**位宽** — 每个采样点的大小需要用一个数值来表示，这个大小为4bit、8bit、16bit、32bit等，这个数值越大，表示的音频的质量越好，对应的数据量也就越大。
+
+**声道数** — 音频录制时音源的数量或者回放时扬声器的数量。比如，单身道，双声道。
+
+**音频帧** — 音频是流式的，没有明确的一帧一帧的概念，它是根据编解码器和具体的引用需求来定的。
+
+如何计算一帧音频帧的大小。假设某音频信号是采样率为 8kHz、双通道、位宽为 16bit，20ms 一帧，则一帧音频数据的大小为：
+ 8000 x 2 x 16bit x 0.02s = 5120 bit = 640 byte
+
+## 2.参考资料
+
+[SCRecorder](https://link.jianshu.com/?t=https://github.com/rFlex/SCRecorder)，主要用于录制视频，音频也可以录制。短视频录制，将录制好的视频保存为多个片段，可以选择需要的视频片段合成。
+[EZAudio](https://link.jianshu.com/?t=https://github.com/syedhali/EZAudio) 主要用于根据音量显示波形图。
+
+## 3.在mac os下使用FFmpeg
+
+1、在mac os下使用ffmpeg比较简单，可以直接使用命令行来操作。首先安装ffmpeg，这里默认系统已经安装好brew，只需要在终端上输入：
+
+> brew install ffmpeg
+
+2、安装结束后，尝试以下命令：
+
+> ffmpeg -i input.mp4 output.avi
+
+如果能顺利转换，表明安装成功
+
+3、万能的编译脚本，歪果仁的脚本编译[传送门](https://link.jianshu.com/?t=https://github.com/kewlbear/FFmpeg-iOS-build-script])。
+
+4、第三步的脚本则会自动从github中把ffmpeg源码下到本地并开始编译。
+
+> ./build-ffmpeg.sh
+
+【iOS开发】iOS下使用FFMPEG的一些总结
+ 其中，ffmpeg-2.5.3是源码，FFmpeg-iOS是编译出来的库，里面有我们需要的.a静态库，一共有7个。
+
+> lipo -info libavcodec.a
+
+查看.a包支持的架构，这几个包都支持了armv7 armv7s i386 x86_64 arm64这几个架构
+
+5、在Xcode中引入FFmpeg library库
+
+#### 
+
+> \#include "avformat.h"
+
+添加一个空的类，把执行文件.m后缀改为.mm，开启混编模式。
+ 添加相应的framework，包括avfoundation和coremedia。
+ 运行工程，如果没有报错，则表明编译成功。
+
+有可能出现的错误：
+
+关于ffmpeg的libavcodec/avcodec.h' file not found
+
+解决办法:
+
+> 1. 因为添加ffmpeg后，会导致三方的Library Search Paths路径不对，需要自己添加路径
+> 2. 如果自己添加的路径是找不到。 检查include文件路径，并重新修改$(PROJECT_DIR)/....../FFmpeg-iOS/include
+
+原文：https://www.jianshu.com/p/0b1c98a28fd4
