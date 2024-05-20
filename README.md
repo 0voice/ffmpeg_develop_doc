@@ -1,4 +1,4 @@
-# 💯 2022年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
+# 💯 2024年，最新 ffmpeg 资料整理，项目（调试可用），命令手册，文章，编解码论文，视频讲解，面试题全套资料
 
 </br>
 
@@ -372,17 +372,15 @@ No.|title | 地址
 
 [音视频信号采集压缩及传输系统的设计与实现](https://github.com/0voice/ffmpeg_develop_doc/blob/main/%E9%9F%B3%E8%A7%86%E9%A2%91%E4%BF%A1%E5%8F%B7%E9%87%87%E9%9B%86%E5%8E%8B%E7%BC%A9%E5%8F%8A%E4%BC%A0%E8%BE%93%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
 
+<br/>
+<br/>
+<h3 >零领工作</h3> 
 
-## 联系专栏
+---
 
-#### [【免费】FFmpeg/WebRTC/RTMP/NDK/Android音视频流媒体高级开发](https://ke.qq.com/course/3202131?flowToken=1035185)
+##### 实时提供，每周发布北京，上海，广州，深圳，杭州，南京，合肥，武汉，长沙，重庆，成都，西安，厦门的c/c++，golang方向的招聘岗位信息。 包含校招，社招，实习岗位， 面经，八股，简历
 
-#### 音视频学习资料包：
+<img src="https://img.0voice.com/public/0e59910091576beaebe20f303357edf7.jpg" alt="零领工作" style="width:300px;height:300px;">
 
-<img width="65%" height="65%" src="https://user-images.githubusercontent.com/86775608/226612890-bfbc3dcc-f694-4942-9d48-abcbaa8a9a50.png"/>
-
-##### 资料包包含：音视频基础、ffmpeg、webrtc、rtmp、SRS、Android、iOS等资料。本repo内容来源于互联网，本repo仅限于整理总结。
-
-##### 音视频交流群: 994289133, [偶遇技术大佬交流，不定期书籍红包福利，每晚技术直播通知！](https://jq.qq.com/?_wv=1027&k=WSuBPY3u)
-
-##### 点击进入 [每晚八点技术直播](https://ke.qq.com/course/3202131?flowToken=1035185)
+<br/>
+<br/>
